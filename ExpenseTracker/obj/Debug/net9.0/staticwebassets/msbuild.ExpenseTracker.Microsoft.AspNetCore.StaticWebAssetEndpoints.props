@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/ExpenseTracker/css/site.cpa21a97bp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cpa21a97bp"},{"Name":"integrity","Value":"sha256-UASQLaUvzL/V/7ltboBWBOaC6MKhmovYsMTQl7r7yd0="},{"Name":"label","Value":"_content/ExpenseTracker/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1242"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UASQLaUvzL/V/7ltboBWBOaC6MKhmovYsMTQl7r7yd0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 10:57:40 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ExpenseTracker/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UASQLaUvzL/V/7ltboBWBOaC6MKhmovYsMTQl7r7yd0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1242"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UASQLaUvzL/V/7ltboBWBOaC6MKhmovYsMTQl7r7yd0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 10:57:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Va9z//gopBPIuV6XkEsDQS6gEC7yTQrI2x92dSbMfvQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3522"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Va9z//gopBPIuV6XkEsDQS6gEC7yTQrI2x92dSbMfvQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 10:14:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ExpenseTracker/css/site.np5r71f8zp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"np5r71f8zp"},{"Name":"integrity","Value":"sha256-Va9z//gopBPIuV6XkEsDQS6gEC7yTQrI2x92dSbMfvQ="},{"Name":"label","Value":"_content/ExpenseTracker/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3522"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Va9z//gopBPIuV6XkEsDQS6gEC7yTQrI2x92dSbMfvQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 10:14:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ExpenseTracker/ExpenseTracker.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ExpenseTracker.zn4f1t0fc5.bundle.scp.css'))</AssetFile>

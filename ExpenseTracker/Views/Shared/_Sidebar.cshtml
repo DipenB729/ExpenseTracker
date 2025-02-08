@@ -1,1 +1,60 @@
-﻿<ejs-sidebar id="sidebar" width="290px"></ejs-sidebar>
+﻿@{
+	List<Object> menuItems = new List<object>();
+	menuItems.Add(new
+	{		
+		text = "General",
+		separator=true
+	});
+	menuItems.Add(new
+	{
+		text = "Dashboard",
+		url = "/",
+		iconCss = "fa-solid fa-box",
+	});
+	menuItems.Add(new
+	{
+		text="Categories",
+		url="/Category",
+		iconCss="fa-solid fa-folder-closed",
+	});
+	menuItems.Add(new
+	{
+		iconCss = "fa-solid fa-arrow-right-arrow-left",
+		text = "Transactions",
+		url = "/Transactions"
+	});
+	menuItems.Add(new
+	{		
+		text = "Extra",
+		separator=true
+	});
+	menuItems.Add(new
+	{
+		iconCss = "fa-solid fa-chart-simple",
+		text = "Reports",
+		url = "#"
+	});
+	menuItems.Add(new
+	{
+		iconCss = "fa-solid fa-gear",
+		text = "Setting",
+		url = "#"
+	});
+}
+
+
+<ejs-sidebar id="sidebar" width="290px" class="mt-5">
+	<e-content-template>
+		<div class="profile-wrapper">
+			<h3 id="login" class="profile-login">login</h3>
+			<div class="titles d-flex flex-column ps-3">
+				<h6 class="mb-0">Wallet App</h6>
+				<span class="text-muted">Dil Bahadur Belbase</span>
+			</div>
+		</div>
+		<ejs-menu id="menu" items="menuItems"
+		orientation="Vertical">
+
+		</ejs-menu>
+	</e-content-template>
+</ejs-sidebar>
